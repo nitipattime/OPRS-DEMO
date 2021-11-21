@@ -27,11 +27,14 @@
             <li class="btns active"><a href="index.php">
                 <i class="fa fa-home"></i> <span>หน้าหลัก</span> </a>
             </li>
+            <li class="btns"><a href="report.php">
+                <i class="fa fa-home"></i> <span>รายงานผล</span> </a>
+            </li>
             <li class="btns"><a href="feedback.php">
                 <i class="fa fa-home"></i> <span>Feedback</span> </a>
             </li>
-            <li class="btns"><a href="evaluate.php">
-                <i class="fa fa-home"></i> <span>Evaluate</span> </a>
+            <li class="btns"><a href="show_eval_graph.php">
+                <i class="fa fa-home"></i> <span>ผล Evaluate</span> </a>
             </li>
             <!-- <li><a href="http://127.0.0.1/eprojectv1.1/admin/devices">
                     <i class="fa fa-files-o"></i> <span>รายการครุภัณฑ​์ </span> </a></li> -->

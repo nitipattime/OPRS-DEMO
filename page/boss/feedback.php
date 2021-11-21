@@ -65,7 +65,7 @@
         <?php include("../service/header.php"); ?>
 
         <!-- Sidebar -->
-        <?php include("../service/sidebar_staff.php"); ?>
+        <?php include("../service/sidebar_boss.php"); ?>
 
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->

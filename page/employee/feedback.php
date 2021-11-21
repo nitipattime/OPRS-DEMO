@@ -65,7 +65,7 @@
         <?php include("../service/header.php"); ?>
 
         <!-- Sidebar -->
-        <?php include("../service/sidebar_staff.php"); ?>
+        <?php include("../service/sidebar_emp.php"); ?>
 
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
@@ -84,9 +84,9 @@
                         <div style="text-align:left;">
                             <h2 class="box-title">ตารางข้อความเสนอแนะ</h2>
                         </div>
-                        <div style="text-align:right;">
+                        <!-- <div style="text-align:right;">
                             <a class="btn btn-success" href="form_addreport.php" role="button"><i class="fa fa-fw fa-plus-circle"></i> เพิ่มข้อมูล</a>
-                        </div>
+                        </div> -->
 
                     </div><!-- /.box-header -->
 

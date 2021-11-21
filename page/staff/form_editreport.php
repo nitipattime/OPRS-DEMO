@@ -64,7 +64,7 @@
                                         ชื่อหัวข้อรายงาน
                                     </div>
                                     <div class="col-sm-8">
-                                        <input type="text" name="header" required class="form-control" value="<?php echo $row['s_header'] ?>">
+                                        <input type="text" name="header" required class="form-control" value="<?php echo $row['r_Header'] ?>">
                                     </div>
                                 </div>
 
@@ -73,7 +73,8 @@
                                         รายละเอียดการปฎิบัติงาน:
                                     </div>
                                     <div class="col-sm-8">
-                                        <textarea id="editor1" name="detail" rows="10" cols="110" value=""><?php echo $row['s_detail'] ?></textarea>
+                                        <!-- <textarea id="editor1" name="detail" rows="10" cols="110" value=""><?php //echo $row['s_detail'] ?></textarea> -->
+                                        <textarea id="editor1" name="detail" rows="10" cols="110" value=""><?php echo $row['r_Header'] ?></textarea>
                                     </div>
                                 </div>
                                 <div class="form-group">

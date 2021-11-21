@@ -6,13 +6,13 @@
         <?php include("../service/header.php"); ?>
 
         <!-- Sidebar -->
-        <?php include("../service/sidebar_admin.php"); ?>
+        <?php include("../service/sidebar_boss.php"); ?>
 
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    แสดง
+                    แสดงผลการรายงาน
                 </h1>
             </section>
             <!-- Top menu -->
@@ -31,11 +31,12 @@
                                     <table id="example1" class="table table-bordered table-striped dataTable" role="grid" aria-describedby="example1_info">
                                         <thead>
                                             <tr role="row" class="info">
-                                                <th tabindex="0" rowspan="1" colspan="1" style="width: 15%;">ว/ด/ป ที่ยืม</th>
-                                                <th tabindex="0" rowspan="1" colspan="1" style="width: 30%;">ชื่อ-สกุล</th>
-                                                <th tabindex="0" rowspan="1" colspan="1" style="width: 30%;">อุปกรณ์</th>
-                                                <th tabindex="0" rowspan="1" colspan="1" style="width: 10%;">จนท.พัสดุ</th>
-                                                <th tabindex="0" rowspan="1" colspan="1" style="width: 10%;">ว/ด/ป ที่คืน </th>
+                                                <th tabindex="0" rowspan="1" colspan="1" style="width: 15%;">ลำดับ</th>
+                                                <th tabindex="0" rowspan="1" colspan="1" style="width: 30%;">หัวข้อ</th>
+                                                <th tabindex="0" rowspan="1" colspan="1" style="width: 20%;">ผู้ส่ง</th>
+                                                <th tabindex="0" rowspan="1" colspan="1" style="width: 15%;">แผนก</th>
+                                                <th tabindex="0" rowspan="1" colspan="1" style="width: 10%;">วันเดือนปี</th>
+                                                <th tabindex="0" rowspan="1" colspan="1" style="width: 10%;">รายละเอียด</th>
 
                                             </tr>
                                         </thead>
@@ -47,8 +48,13 @@
                                                     นายจัดการ12 พัสดุ12<br>เหตุผล ฟดฟหดหฟ
                                                 </td>
                                                 <td>Notebook Acer 1</td>
-                                                <td>จัดการ12</td>
-                                                <td>2019-06-20</td>
+                                                <td>Notebook Acer 1</td>
+                                                <td>Notebook Acer 1</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-info btn-xs">
+                                                        pwd
+                                                    </a>
+                                                </td>
 
                                             </tr>
 
@@ -60,6 +66,11 @@
                                                 <td>Projector 1</td>
                                                 <td>จัดการ12</td>
                                                 <td>2019-06-20</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-info btn-xs">
+                                                        pwd
+                                                    </a>
+                                                </td>
 
                                             </tr>
 
@@ -70,7 +81,12 @@
                                                 </td>
                                                 <td>Projector 1</td>
                                                 <td>จัดการ12</td>
-                                                <td></td>
+                                                <td>Notebook Acer 1</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-info btn-xs">
+                                                        pwd
+                                                    </a>
+                                                </td>
 
                                             </tr>
 
@@ -82,6 +98,11 @@
                                                 <td>HP Printer</td>
                                                 <td>จัดการ12</td>
                                                 <td>2019-06-20</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-info btn-xs">
+                                                        pwd
+                                                    </a>
+                                                </td>
 
                                             </tr>
 
@@ -93,6 +114,11 @@
                                                 <td>คอมพิวเตอร์ส่วนบุคคล 1</td>
                                                 <td>จัดการ12</td>
                                                 <td>2019-06-20</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-info btn-xs">
+                                                        pwd
+                                                    </a>
+                                                </td>
 
                                             </tr>
 
@@ -103,7 +129,12 @@
                                                 </td>
                                                 <td>Projector 1</td>
                                                 <td>จัดการ12</td>
-                                                <td></td>
+                                                <td>จัดการ12</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-info btn-xs">
+                                                        pwd
+                                                    </a>
+                                                </td>
 
                                             </tr>
 
@@ -114,76 +145,14 @@
                                                 </td>
                                                 <td>คอมพิวเตอร์ส่วนบุคคล 2</td>
                                                 <td>จัดการ12</td>
-                                                <td></td>
-
-                                            </tr>
-
-                                            <tr role="row">
-                                                <td align="center">2019-06-23 09:04:07</td>
-                                                <td>
-                                                    นายพนง.1 ดีมาก1<br>เหตุผล ฟฟฟฟฟฟฟฟฟฟ
-                                                </td>
-                                                <td>Notebook Acer 1</td>
                                                 <td>จัดการ12</td>
-                                                <td>2019-06-23</td>
-
-                                            </tr>
-
-                                            <tr role="row">
-                                                <td align="center">2019-06-24 13:11:20</td>
                                                 <td>
-                                                    นายboss1 boss1<br>เหตุผล meeting
+                                                    <a href="#" class="btn btn-info btn-xs">
+                                                        pwd
+                                                    </a>
                                                 </td>
-                                                <td>Notebook Acer 1</td>
-                                                <td>จัดการ12</td>
-                                                <td>2019-06-24</td>
 
                                             </tr>
-
-                                            <tr role="row">
-                                                <td align="center">2019-06-25 22:06:11</td>
-                                                <td>
-                                                    Mr.Admin test<br>เหตุผล meeting
-                                                </td>
-                                                <td>Notebook Acer 1</td>
-                                                <td>จัดการ12</td>
-                                                <td>2019-06-25</td>
-
-                                            </tr>
-
-                                            <tr role="row">
-                                                <td align="center">2019-06-25 22:06:11</td>
-                                                <td>
-                                                    Mr.Admin test<br>เหตุผล meeting
-                                                </td>
-                                                <td>Notebook Acer 1</td>
-                                                <td>จัดการ12</td>
-                                                <td>2019-06-25</td>
-
-                                            </tr>
-
-                                            <tr role="row">
-                                                <td align="center">2019-06-24 13:11:20</td>
-                                                <td>
-                                                    นายboss1 boss1<br>เหตุผล meeting
-                                                </td>
-                                                <td>Notebook Acer 1</td>
-                                                <td>จัดการ12</td>
-                                                <td>2019-06-24</td>
-
-                                            </tr>
-
-                                            <tr role="row">
-                                                <td align="center">2019-06-23 09:04:07</td>
-                                                <td>
-                                                    นายพนง.1 ดีมาก1<br>เหตุผล ฟฟฟฟฟฟฟฟฟฟ
-                                                </td>
-                                                <td>Notebook Acer 1</td>
-                                                <td>จัดการ12</td>
-                                                <td>2019-06-23</td>
-
-                                            </tr>
-
                                             <tr role="row">
                                                 <td align="center">2019-06-23 08:48:55</td>
                                                 <td>
@@ -191,86 +160,76 @@
                                                 </td>
                                                 <td>คอมพิวเตอร์ส่วนบุคคล 2</td>
                                                 <td>จัดการ12</td>
-                                                <td></td>
-
-                                            </tr>
-
-                                            <tr role="row">
-                                                <td align="center">2019-06-23 08:48:11</td>
-                                                <td>
-                                                    นายพนง.1 ดีมาก1<br>เหตุผล ssdfsdf
-                                                </td>
-                                                <td>Projector 1</td>
                                                 <td>จัดการ12</td>
-                                                <td></td>
-
-                                            </tr>
-
-                                            <tr role="row">
-                                                <td align="center">2019-06-20 10:59:04</td>
                                                 <td>
-                                                    นายจัดการ12 พัสดุ12<br>เหตุผล sfsfasfa
+                                                    <a href="#" class="btn btn-info btn-xs">
+                                                        pwd
+                                                    </a>
                                                 </td>
-                                                <td>คอมพิวเตอร์ส่วนบุคคล 1</td>
-                                                <td>จัดการ12</td>
-                                                <td>2019-06-20</td>
 
                                             </tr>
-
                                             <tr role="row">
-                                                <td align="center">2019-06-20 10:57:29</td>
+                                                <td align="center">2019-06-23 08:48:55</td>
                                                 <td>
-                                                    นายจัดการ12 พัสดุ12<br>เหตุผล aaaaa
+                                                    นายพนง.1 ดีมาก1<br>เหตุผล aaaaaa
                                                 </td>
-                                                <td>HP Printer</td>
+                                                <td>คอมพิวเตอร์ส่วนบุคคล 2</td>
                                                 <td>จัดการ12</td>
-                                                <td>2019-06-20</td>
+                                                <td>จัดการ12</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-info btn-xs">
+                                                        pwd
+                                                    </a>
+                                                </td>
 
                                             </tr>
-
                                             <tr role="row">
-                                                <td align="center">2019-06-20 10:57:16</td>
+                                                <td align="center">2019-06-23 08:48:55</td>
                                                 <td>
-                                                    นายจัดการ12 พัสดุ12<br>เหตุผล aaaaaaa
+                                                    นายพนง.1 ดีมาก1<br>เหตุผล aaaaaa
                                                 </td>
-                                                <td>Projector 1</td>
+                                                <td>คอมพิวเตอร์ส่วนบุคคล 2</td>
                                                 <td>จัดการ12</td>
-                                                <td></td>
+                                                <td>จัดการ12</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-info btn-xs">
+                                                        pwd
+                                                    </a>
+                                                </td>
 
                                             </tr>
-
                                             <tr role="row">
-                                                <td align="center">2019-06-20 10:14:53</td>
+                                                <td align="center">2019-06-23 08:48:55</td>
                                                 <td>
-                                                    นายจัดการ12 พัสดุ12<br>เหตุผล ฟดฟหดหฟ
+                                                    นายพนง.1 ดีมาก1<br>เหตุผล aaaaaa
                                                 </td>
-                                                <td>Projector 1</td>
+                                                <td>คอมพิวเตอร์ส่วนบุคคล 2</td>
                                                 <td>จัดการ12</td>
-                                                <td>2019-06-20</td>
+                                                <td>จัดการ12</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-info btn-xs">
+                                                        pwd
+                                                    </a>
+                                                </td>
 
                                             </tr>
-
                                             <tr role="row">
-                                                <td align="center">2019-06-20 10:14:53</td>
+                                                <td align="center">2019-06-23 08:48:55</td>
                                                 <td>
-                                                    นายจัดการ12 พัสดุ12<br>เหตุผล ฟดฟหดหฟ
+                                                    นายพนง.1 ดีมาก1<br>เหตุผล aaaaaa
                                                 </td>
-                                                <td>Notebook Acer 1</td>
+                                                <td>คอมพิวเตอร์ส่วนบุคคล 2</td>
                                                 <td>จัดการ12</td>
-                                                <td>2019-06-20</td>
+                                                <td>จัดการ12</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-info btn-xs">
+                                                        pwd
+                                                    </a>
+                                                </td>
 
                                             </tr>
 
-                                            <tr role="row">
-                                                <td align="center">2019-07-03 09:37:38</td>
-                                                <td>
-                                                    นายพนง.1 ดีมาก1<br>เหตุผล aaaaa
-                                                </td>
-                                                <td>Notebook Acer 1</td>
-                                                <td>จัดการ12</td>
-                                                <td></td>
-
-                                            </tr>
+                                            
 
                                         </tbody>
                                     </table>
@@ -281,15 +240,11 @@
                 </div>
             </section><!-- /.content -->
         </div><!-- /.content-wrapper -->
+
         <!-- Main Footer -->
-        <footer class="main-footer">
-            <!-- To the right -->
-            <div class="pull-right hidden-xs">
-                eProject SYSTEM
-            </div>
-            <!-- Default to the left -->
-            <strong>Copyright &copy; 2019 All rights reserved.
-        </footer>
+        <?php include("../service/footer.php"); ?>
+
+
     </div><!-- ./wrapper -->
     </div>
 </body>

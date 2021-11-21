@@ -7,7 +7,7 @@
         <?php include("../service/header.php"); ?>
 
         <!-- Sidebar -->
-        <?php include("../service/sidebar_boss.php"); ?>
+        <?php include("../service/sidebar_emp.php"); ?>
         
         <div class="content-wrapper">
 

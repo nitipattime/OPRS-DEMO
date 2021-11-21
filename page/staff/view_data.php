@@ -1,13 +1,16 @@
 <?php include("../service/head.php"); ?>
-<?php include("show_report_db.php"); ?>
+<?php //include("show_report_db.php"); ?>
+<?php include("show_view_data_db.php"); ?>
 <?php $count = 1; ?>
 
 <head>
     <!-- <link rel="stylesheet" href="../bootstrap/css/template_timeline.css"> -->
     <!-- <script src="../../adddemo/demo2/js/jquery.js"></script> -->
     <!-- <script src="../../adddemo/demo2/js/timeline.min.js"></script> -->
-    <link rel="stylesheet" href="../../adddemo/demo2/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../../adddemo/demo2/css/timeline.min.css" />
+    <script src="jquery.js"></script>
+    <script src="timeline.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="timeline.min.css" />
 
 
 
@@ -92,15 +95,20 @@
 
                                                 ?>
                                                     <div class="timeline__item">
-                                                        <div>
-                                                            <h5><?php echo $row["created"]; ?></h5>
+                                                        <!-- <div>
+                                                            <h5><?php //echo $row["created"]; ?></h5>
                                                         </div>
                                                         <div class="timeline__content" style="text-align: center;">
-                                                            <h2><?php echo $row["m_FName"]; ?></h2>
-                                                            <p><?php echo $row["m_LName"]; ?></p>
-                                                        </div>
+                                                            <h2><?php //echo $row["m_FName"]; ?></h2>
+                                                            <p><?php //echo $row["m_LName"]; ?></p>
+                                                        </div> -->
+                                                        <div class="timeline__content">
+                                            <h2><?php echo $row["year"]; ?></h2>
+                                            <p><?php echo $row["comment"]; ?></p>
+                                        </div>
                                                     </div>
                                                     <br><br><br>
+
 
                                                    
                                                 <?php

@@ -11,7 +11,7 @@ $edit = $_GET['idreport'];
 // $te = $_POST['te'];
 // $problem = $_POST['problem'];
 
-$sql = "SELECT *FROM tbl_report WHERE reportdetail_ID = $edit";
+$sql = "SELECT *FROM tbl_report WHERE r_ID = $edit";
 $result =  mysqli_query($condb,$sql);
 
 ?>
